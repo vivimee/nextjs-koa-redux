@@ -1,0 +1,15 @@
+.menu-group {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: .2rem .3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-group .menu-item {
+  text-align: center;
+  padding: .2rem 0;
+  flex-grow: 1;
+}
