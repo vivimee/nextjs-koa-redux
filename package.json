@@ -7,7 +7,7 @@
   "author": "vivimee <vivimee@163.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "next"
+    "dev": "node server.js"
   },
   "dependencies": {
     "koa": "^2.11.0",

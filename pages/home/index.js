@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { withRedux } from "../lib/redux";
-import homeReducer, { homeActions } from "../components/Home/homeRedux";
-import HomeContainer from '../components/Home';
+import { withRedux } from "../../lib/redux";
+import homeReducer, { homeActions } from "../../components/Home/homeRedux";
 
 class Home extends Component {
   static async getInitialProps({ reduxStore }) {
@@ -15,7 +14,7 @@ class Home extends Component {
 
   }
   render() {
-    return <HomeContainer />;
+    return <h3>Home</h3>;
   }
 }
 
