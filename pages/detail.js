@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withRedux } from "../lib/redux";
+import { withRedux } from "../lib/withReduxHOC";
 import detailReducer, { detailActions } from "../components/Detail/detailRedux";
 import DetailContainer from "../components/Detail";
 

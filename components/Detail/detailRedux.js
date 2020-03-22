@@ -1,4 +1,4 @@
-import createReducer from "../../lib/createReducer";
+import {createReducer} from "../../store";
 
 const initialState = {
   name: "detail"

@@ -12,7 +12,7 @@ const app = new Koa();
 const router = new Router();
 
 router.get(['/home', '/home/:tab'], async ctx => {
-  const { tab = '' } = ctx.query;
+  const tab = ctx.query.tab || ctx.params.tab;
   const pageName = tab ? `/${tab}` : '';
   await nextServer.render(ctx.req, ctx.res, `/home${pageName}`, ctx.query);
   ctx.respond = false;
